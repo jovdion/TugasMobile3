@@ -68,7 +68,7 @@ class DashboardTab extends StatelessWidget {
   final List<_MenuItem> menuItems = [
     _MenuItem('Stopwatch', Icons.timer, StopwatchScreen(), Colors.blue),
     _MenuItem('Deteksi Bilangan', Icons.calculate, NumberTypeScreen(), Colors.green),
-    _MenuItem('Tracking LBS', Icons.location_on, TrackingScreen(), Colors.orange),
+    _MenuItem('Tracking LBS', Icons.location_on, TrackingLBSPage(), Colors.orange),
     _MenuItem('Konversi Waktu', Icons.access_time, TimeConvertScreen(), Colors.purple),
     _MenuItem('Rekomendasi Situs', Icons.link, RecommendationScreen(), Colors.red),
   ];

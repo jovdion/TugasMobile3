@@ -30,6 +30,30 @@ class _RecommendationScreenState extends State<RecommendationScreen> with Single
       imgUrl: 'https://pub.dev/static/hash-5weehz3o/img/pub-dev-logo-cover-image.png',
       description: 'Repositori paket untuk aplikasi Flutter dan Dart yang dikelola oleh komunitas',
     ),
+    Site(
+      title: 'Google maps',
+      url: 'https://maps.google.com',
+      imgUrl: 'https://w7.pngwing.com/pngs/8/868/png-transparent-google-maps-hd-logo.png',
+      description: 'Platform untuk menampilkan dan mencari lokasi yang paling diandalkan untuk saat ini',
+    ),
+    Site(
+      title: 'Google',
+      url: 'https://google.com',
+      imgUrl: 'https://cdn.imgbin.com/5/1/2/imgbin-google-logo-g-suite-google-search-chrome-EcAGrdDu8ifPFwERsNhwqpLiT.jpg',
+      description: 'Platform untuk mencari segala sesuatu di internet',
+    ),
+    Site(
+      title: 'Visual studio code',
+      url: 'https://code.visualstudio.com',
+      imgUrl: 'https://logowik.com/content/uploads/images/visual-studio-code7642.jpg',
+      description: 'Aplikasi untuk membuat kode yang banyak digunakan',
+    ),
+    Site(
+      title: 'Roblox',
+      url: 'https://www.roblox.com',
+      imgUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/7e/Roblox_Logo_2022.jpg',
+      description: 'Platform game yang sangat seru untuk dimainkan',
+    ),
   ];
 
   Set<String> _favorites = {};
